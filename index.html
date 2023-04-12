@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inventory</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Inventory</h1>
+    <div class="tabs">
+        <button class="tab" onclick="openTab(event, 'vegetables')">(1) Vegetables</button>
+        <button class="tab" onclick="openTab(event, 'spices')">(2) Spices</button>
+        <button class="tab active" onclick="openTab(event, 'fruits')">(3) Fruits</button>
+    </div>
+    <h2>list (8)</h2>
+    <div id="vegetables" class="tabcontent">
+        <ul>
+            <li>Carrot</li>
+            <li>Cucumber</li>
+        </ul>
+    </div>
+    <div id="spices" class="tabcontent">
+        <ul>
+            <li>Salt</li>
+            <li>Pepper</li>
+            <li>Chilli</li>
+            <li>Herbs</li>
+            <li>Curry</li>
+        </ul>
+    </div>
+    <div id="fruits" class="tabcontent">
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Pear</li>
+            <li>Watermelon</li>
+            <li>Grape</li>
+            <li>Strawberry</li>
+            <li>Mango</li>
+            <li>Blackberry</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
